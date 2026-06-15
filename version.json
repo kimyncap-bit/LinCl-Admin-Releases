@@ -1,9 +1,10 @@
 {
-  "version": "3.0.0",
-  "release_notes": "관리자 로그인·계정/감사로그, 일괄삭제·검색필터·되돌리기, 자동업데이트 도입.",
+  "version": "3.0.1",
+  "release_notes": "로그인 화면 개선(로그인·새 계정 만들기 선택), 고DPI 노트북 '꺼짐'(투명 고착) 수정, 시작 오류 안내.",
   "changelog": {
+    "3.0.1": "로그인 화면 개선(로그인·새 계정 만들기 선택), 고DPI 노트북 '꺼짐'(투명 고착) 수정, 시작 오류 안내.",
     "3.0.0": "관리자 로그인·계정/감사로그, 일괄삭제·검색필터·되돌리기, 자동업데이트 도입."
   },
-  "download_url": "https://github.com/kimyncap-bit/LCAdmin-Releases/releases/download/v3.0.0/LineageAdmin_Setup_3.0.0.exe",
-  "sha256": "f1048a1b76f7ae87427d0bdae5fd61920cc5fb4edd11ce5da6ecf49bcf5a9da6"
+  "download_url": "https://github.com/kimyncap-bit/LCAdmin-Releases/releases/download/v3.0.1/LineageAdmin_Setup_3.0.1.exe",
+  "sha256": "68d807570e236adb7ecb9a456646edb6d1efd499a88be18011482b55c8e141a1"
 }

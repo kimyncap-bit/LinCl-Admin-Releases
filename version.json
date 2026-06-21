@@ -1,7 +1,8 @@
 {
-  "version": "0.9.38",
-  "release_notes": "업데이트 안정화: 버전 확인 다중 호스트 폴백(admin.lincllab.com 장애 시 sslip 자동 전환) — 업데이트 확인 끊김 방지.",
+  "version": "0.9.39",
+  "release_notes": "접속현황 화면 렌더 성능 개선 — 표 행을 경량 위젯으로 전환(약 5배 빠름·끊김/깜박임 감소). 화면 모양은 동일.",
   "changelog": {
+    "0.9.39": "접속현황 화면 렌더 성능 개선 — 표 행을 경량 위젯으로 전환(약 5배 빠름·끊김/깜박임 감소). 화면 모양은 동일.",
     "0.9.38": "업데이트 안정화: 버전 확인 다중 호스트 폴백(admin.lincllab.com 장애 시 sslip 자동 전환) — 업데이트 확인 끊김 방지.",
     "0.9.37": "서버 주소 lincllab.com 이전 — API=api.lincllab.com, 자동업데이트·다운로드=admin.lincllab.com (기존 sslip.io도 전환기 동안 동작)",
     "0.9.36": "접속 현황 통합(상태: 접속중/플레이중) · 힐러·격수 PC사양 풀세트(CPU·RAM·OS·해상도·모니터) · 회원 프로필에 마지막 PC사양 저장",
@@ -44,6 +45,6 @@
     "3.0.1": "로그인 화면 개선(로그인·새 계정 만들기 선택), 고DPI 노트북 '꺼짐'(투명 고착) 수정, 시작 오류 안내.",
     "3.0.0": "관리자 로그인·계정/감사로그, 일괄삭제·검색필터·되돌리기, 자동업데이트 도입."
   },
-  "download_url": "https://admin.lincllab.com/dl/v0.9.38/LinClAdmin_Setup.exe",
-  "sha256": "c3f4e3e42866b4d19d25d65d2699ea72b2c10c91cb3395123fe860accc5d30d5"
+  "download_url": "https://admin.lincllab.com/dl/v0.9.39/LinClAdmin_Setup.exe",
+  "sha256": "0f4581d4ffd4ac5d3b78237adcdb84d5bdcfef32b4913952c35731e99474df93"
 }

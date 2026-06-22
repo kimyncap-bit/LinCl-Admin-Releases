@@ -46,6 +46,6 @@
     "3.0.1": "로그인 화면 개선(로그인·새 계정 만들기 선택), 고DPI 노트북 '꺼짐'(투명 고착) 수정, 시작 오류 안내.",
     "3.0.0": "관리자 로그인·계정/감사로그, 일괄삭제·검색필터·되돌리기, 자동업데이트 도입."
   },
-  "download_url": "https://admin.lincllab.com/dl/v0.9.40/LinClAdmin_Setup.exe",
+  "download_url": "https://cdn.lincllab.com/admin/v0.9.40/LinClAdmin_Setup.exe",
   "sha256": "1377d861e4b1f2d35ca26d27cfe82f075a278b6b0afb4dcde3787755e4ed7df4"
 }

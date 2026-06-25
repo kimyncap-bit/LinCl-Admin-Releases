@@ -1,7 +1,8 @@
 {
-  "version": "0.9.54",
-  "release_notes": "모든 팝업(PC사양·결제 등록·입금 일괄등록·로그·타임라인 등)을 본창이 있는 모니터에 표시(멀티모니터). 결제 탭 필터 재정의 — 전체·미입금·첫달 입금완료·연장 입금완료(자동/수동 포함).",
+  "version": "0.9.55",
+  "release_notes": "보드 편집 상태값 한글화(정상(자동)·차단·분실·고장) — 차단 해제는 상태를 '정상(자동)'으로 바꾸면 됨. (내부) 발행 시 cdn/getadmin 자동 갱신(R2 업로드+CF 캐시 퍼지) → admin.lincllab.com/getadmin 이 항상 최신.",
   "changelog": {
+    "0.9.55": "보드 편집 상태값 한글화(정상(자동)·차단·분실·고장) — 차단 해제는 상태를 '정상(자동)'으로 바꾸면 됨. (내부) 발행 시 cdn/getadmin 자동 갱신(R2 업로드+CF 캐시 퍼지) → admin.lincllab.com/getadmin 이 항상 최신.",
     "0.9.54": "모든 팝업(PC사양·결제 등록·입금 일괄등록·로그·타임라인 등)을 본창이 있는 모니터에 표시(멀티모니터). 결제 탭 필터 재정의 — 전체·미입금·첫달 입금완료·연장 입금완료(자동/수동 포함).",
     "0.9.53": "접속현황 통합표 가독성 개선 — 접속시각 2줄(말줄임 제거)·시리얼 중간토큰만 표시·컬럼 폭 균형. PC사양 팝업에 힐러 버전 추가. 보드 USB 라이브 정보 '꽂힘 미응답'(폴링 포트충돌) 수정.",
     "0.9.52": "접속현황 좌석=구독수·PC사양(접속중/과거) 실데이터 연동, 보드 꽂힘 시 행 자동선택+우측 USB 정보 표시, 전 화면 Pretendard 폰트 통일. 새 Qt 화면을 정식 기본으로 전환(구 화면은 --ctk 폴백).",
@@ -9,6 +10,6 @@
     "3.0.1": "로그인 화면 개선(로그인·새 계정 만들기 선택), 고DPI '꺼짐'(투명) 1차 수정, 시작 오류 안내.",
     "3.0.0": "관리자 로그인·계정/감사로그, 일괄삭제·검색필터·되돌리기, 자동업데이트 도입."
   },
-  "download_url": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.54/LinClAdmin_Setup_0.9.54.exe",
-  "sha256": "d30bb98fbf67af66963fb9b0d450d1bd24edb44544091fcd0919138b7a72f962"
+  "download_url": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.55/LinClAdmin_Setup_0.9.55.exe",
+  "sha256": "2880ba94db2c45f1afd3ecb5f35740d40d7e2247524c93ce7bc25a1c5f05090d"
 }

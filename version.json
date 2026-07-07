@@ -1,7 +1,8 @@
 {
-  "version": "0.9.101",
-  "release_notes": "- 접속현황: 격수 '실행'을 실제 격수 실행 기준으로 표시(미실행 정확 반영)\n- 접속현황: 힐러/격수 IP 비교 오탐(빨간색) 수정\n- 보드: 송장번호 수정 기능 추가(재발부 등 기존 송장 변경)",
+  "version": "0.9.102",
+  "release_notes": "- 접속현황: 힐러/격수 IP 비교를 대역 기준으로 개선(같은 네트워크 오탐 제거)\n- 접속현황: 격수 HP인식은 격수 실행 중일 때만 표시",
   "changelog": {
+    "0.9.102": "- 접속현황: 힐러/격수 IP 비교를 대역 기준으로 개선(같은 네트워크 오탐 제거)\n- 접속현황: 격수 HP인식은 격수 실행 중일 때만 표시",
     "0.9.101": "- 접속현황: 격수 '실행'을 실제 격수 실행 기준으로 표시(미실행 정확 반영)\n- 접속현황: 힐러/격수 IP 비교 오탐(빨간색) 수정\n- 보드: 송장번호 수정 기능 추가(재발부 등 기존 송장 변경)",
     "0.9.100": "- 첫 인증 시 구독 시작/만료일 자동 기록\n- 접속현황: 힐러/격수 접속 IP 표시\n- 접속현황: USB 미인식 실행 숨김\n- 결제: 미처리함 자동 정리 및 중복 적재 방지\n- 날짜 선택 달력 오늘 날짜 강조",
     "0.9.99": "- 결제 탭 기본 보기 = '회원별'(전체 이력은 토글로 유지)\n- 회원별 보기에 No. 컬럼 추가 — 가장 오래된 회원이 1번(기본 정렬)\n- 상태 표기: 무료=녹색, 결제완료·첫 접속 전='첫 접속 대기'\n- 만료 컬럼: 미결제 회원='첫 결제 대기중', 만료 지난 날짜는 빨간 글씨",
@@ -52,7 +53,7 @@
     "0.9.53": "접속현황 통합표 가독성 개선 — 접속시각 2줄(말줄임 제거)·시리얼 중간토큰만 표시·컬럼 폭 균형. PC사양 팝업에 힐러 버전 추가. 보드 USB 라이브 정보 '꽂힘 미응답'(폴링 포트충돌) 수정.",
     "0.9.52": "접속현황 좌석=구독수·PC사양(접속중/과거) 실데이터 연동, 보드 꽂힘 시 행 자동선택+우측 USB 정보 표시, 전 화면 Pretendard 폰트 통일. 새 Qt 화면을 정식 기본으로 전환(구 화면은 --ctk 폴백)."
   },
-  "download_url": "https://cdn.lincllab.com/admin/v0.9.101/LinClAdmin_Setup.exe",
-  "download_url_github": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.101/LinClAdmin_Setup_0.9.101.exe",
-  "sha256": "ecdbb93e3f1d26a3e9d6ce2bfb3196678f27483d5f858f78521024330ced4820"
+  "download_url": "https://cdn.lincllab.com/admin/v0.9.102/LinClAdmin_Setup.exe",
+  "download_url_github": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.102/LinClAdmin_Setup_0.9.102.exe",
+  "sha256": "bec131888bbbe352539436a9539b648f434314cd6ba4aca82fb8d75c7a4883d4"
 }

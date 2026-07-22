@@ -1,7 +1,8 @@
 {
-  "version": "0.9.119",
-  "release_notes": "- 3분간 사용하지 않으면 화면 갱신을 멈춥니다(마우스를 움직이거나 아무 키나 누르면 바로 다시 시작)\n- 자리를 비운 동안 서버를 부르지 않아 부담이 줄고, 화면의 회원 정보도 가려집니다\n- 프로그램 설치 용량을 줄였습니다",
+  "version": "0.9.120",
+  "release_notes": "- 구독을 여러 개 결제한 회원이 여러 대를 동시에 쓸 수 있습니다\n  (결제 등록·수정 화면의 '구분'에서 '좌석 추가'를 고르면 그 수만큼 좌석이 늘어납니다)\n- 회원 목록에 '구독수' 열이 생겼습니다(상품과 보드 사이)",
   "changelog": {
+    "0.9.120": "- 구독을 여러 개 결제한 회원이 여러 대를 동시에 쓸 수 있습니다\n  (결제 등록·수정 화면의 '구분'에서 '좌석 추가'를 고르면 그 수만큼 좌석이 늘어납니다)\n- 회원 목록에 '구독수' 열이 생겼습니다(상품과 보드 사이)",
     "0.9.119": "- 3분간 사용하지 않으면 화면 갱신을 멈춥니다(마우스를 움직이거나 아무 키나 누르면 바로 다시 시작)\n- 자리를 비운 동안 서버를 부르지 않아 부담이 줄고, 화면의 회원 정보도 가려집니다\n- 프로그램 설치 용량을 줄였습니다",
     "0.9.118": "- 접속현황을 보고 있을 때만 새로고침해 서버 부담을 줄였습니다\n- 회원·보드 목록을 매번 전체로 받지 않고 바뀐 부분만 받아옵니다",
     "0.9.117": "- 서버 동기(이용권 반영)가 실패하면 조용히 넘어가지 않고 경고창으로 알립니다",
@@ -70,7 +71,7 @@
     "0.9.53": "접속현황 통합표 가독성 개선 — 접속시각 2줄(말줄임 제거)·시리얼 중간토큰만 표시·컬럼 폭 균형. PC사양 팝업에 힐러 버전 추가. 보드 USB 라이브 정보 '꽂힘 미응답'(폴링 포트충돌) 수정.",
     "0.9.52": "접속현황 좌석=구독수·PC사양(접속중/과거) 실데이터 연동, 보드 꽂힘 시 행 자동선택+우측 USB 정보 표시, 전 화면 Pretendard 폰트 통일. 새 Qt 화면을 정식 기본으로 전환(구 화면은 --ctk 폴백)."
   },
-  "download_url": "https://cdn.lincllab.com/admin/v0.9.119/LinClAdmin_Setup.exe",
-  "download_url_github": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.119/LinClAdmin_Setup_0.9.119.exe",
-  "sha256": "10ea8418f45ea08a20ff41e092a74066b8f3beccd63c76ec2bf0b577f2f092bc"
+  "download_url": "https://cdn.lincllab.com/admin/v0.9.120/LinClAdmin_Setup.exe",
+  "download_url_github": "https://github.com/kimyncap-bit/LinCl-Admin-Releases/releases/download/v0.9.120/LinClAdmin_Setup_0.9.120.exe",
+  "sha256": "3dc173ea5c0383e52f4f6ed59e1b9178ba93a73a2f4384f3c2206952517ca1cc"
 }
